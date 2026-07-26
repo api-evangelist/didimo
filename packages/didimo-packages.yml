@@ -1,0 +1,39 @@
+generated: '2026-07-18'
+method: searched
+source: https://developer.didimo.co/llms.txt
+note: >-
+  Didimo publishes no first-party client libraries on public package registries
+  (npm, PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist, crates.io all
+  return 404 for "didimo"). Its first-party developer surface is game-engine SDKs
+  and bridges distributed with the licensed Popul8 application, plus the Popul8 CLI
+  (catalogued in cli/didimo-cli.yml). Registry values below are "proprietary"
+  because distribution is via the Popul8 install / license, not a public registry.
+packages:
+- name: Popul8 Express Unity SDK
+  language: csharp
+  ecosystem: unity
+  registry: proprietary
+  url: https://developer.didimo.co/docs/popul8-unity-sdk
+  install: Bundled with Popul8 Express; access via a Popul8 license (book a demo).
+  official: true
+  description: >-
+    Unity SDK for bringing Popul8 characters and crowds into the Unity engine,
+    covering crowd rendering and in-game character editors.
+- name: Popul8 Unity Bridge
+  language: csharp
+  ecosystem: unity
+  registry: proprietary
+  url: https://developer.didimo.co/docs/unity-bridge
+  install: Bundled with Popul8; access via a Popul8 license (book a demo).
+  official: true
+  description: Bridge that imports Popul8 characters and crowds directly into Unity.
+- name: Popul8 Unreal Bridge
+  language: cpp
+  ecosystem: unreal
+  registry: proprietary
+  url: https://developer.didimo.co/docs/unreal-bridge
+  install: Bundled with Popul8; access via a Popul8 license (book a demo).
+  official: true
+  description: >-
+    Bridge that imports Popul8 characters and crowds directly into Unreal Engine,
+    with an in-game character editor for Unreal projects.

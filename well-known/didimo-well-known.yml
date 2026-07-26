@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: probed /.well-known/ paths on Didimo hosts (2026-07-18)
+note: >-
+  No /.well-known/ discovery documents are published on any Didimo host. Absence is
+  valid, expected data recorded here for auditability.
+hosts:
+- host: https://www.didimo.co
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+- host: https://developer.didimo.co
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404

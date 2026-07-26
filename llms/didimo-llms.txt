@@ -1,0 +1,69 @@
+# Didimo Popul8 Developer Portal Documentation
+
+> Popul8 automates character creation, streamlines asset fitting, and generates infinite variations instantly. All you need is a single 3D base character that aligns with your technical and artistic requirements - Popul8 handles the rest.
+
+## Guides
+- [What is Popul8 Express?](https://developer.didimo.co/docs/what-is-popul8-express.md): Automate the tedious, master the creative
+- [Installing Popul8 Express](https://developer.didimo.co/docs/installing-popul8-express.md): Before starting, [book a demo](https://www.didimo.co/book-a-demo) and request the Popul8 Express software and license file from our team.
+- [Before You Start](https://developer.didimo.co/docs/before-you-start.md): Prepare your asssets for Popul8 Express and Useful Actions
+- [Creating a New Project](https://developer.didimo.co/docs/how-to-create-a-new-project-in-popul8-express.md)
+- [Importing Your Base Character (Template)](https://developer.didimo.co/docs/how-to-add-your-first-character-to-the-scene.md)
+- [Adding Deformables, Shapes, and Animations](https://developer.didimo.co/docs/importing-assets-shapes-and-animations.md)
+- [Intersection Solver: Fixing Deformable Collisions ](https://developer.didimo.co/docs/fixing-deformable-collisions-intersection-solver.md)
+- [Create Your First Crowd](https://developer.didimo.co/docs/create-your-first-crowd.md)
+- [How to Export from Popul8 Express](https://developer.didimo.co/docs/how-to-export-from-popul8-express.md)
+- [Bridge it to Unity or Unreal Engine](https://developer.didimo.co/docs/bridge-it-to-unity-or-unreal-engine.md)
+- [FAQ](https://developer.didimo.co/docs/faq.md)
+- [Best Practices for Preparing Templates for Popul8 Express](https://developer.didimo.co/docs/best-practices-for-preparing-template-characters-for-use-in-popul8-express.md)
+- [How to create Deformables for Popul8 Express](https://developer.didimo.co/docs/how-to-create-deformables-to-use-in-popul8-express-1.md)
+- [Preparing Animations for Popul8 Express](https://developer.didimo.co/docs/preparing-animations-for-popul8-express.md)
+- [Create a Manifold for your Template](https://developer.didimo.co/docs/manifold.md): Create a target manifold for your template to be used in the Shape Editor transfer
+- [Rendering Characters and Customizing Shaders in Game](https://developer.didimo.co/docs/rendering-and-shaders-in-game.md): Characters are rendered in our system, with a focus on performance, scalability, and flexibility.
+- [Download Demo Express Project](https://developer.didimo.co/docs/download-the-demo-project.md): This project allow you to quickly explore the features of Popul8 Express
+- [Popul8 Express Walk-through](https://developer.didimo.co/docs/popul8-express-walk-through.md)
+- [Base Concepts](https://developer.didimo.co/docs/base-concepts.md)
+- [Asset Importing](https://developer.didimo.co/docs/asset-importing.md)
+- [Logs](https://developer.didimo.co/docs/errors.md)
+- [Popul8 Express Unity SDK](https://developer.didimo.co/docs/popul8-unity-sdk.md)
+- [Bridge to Unity](https://developer.didimo.co/docs/unity-bridge.md): Quickly bring your characters and crowds from Popul8 into Unity engine
+- [Crowd Rendering](https://developer.didimo.co/docs/crowd-rendering.md)
+- [In Game Character Editor](https://developer.didimo.co/docs/character-editor.md): <p style="color: rgb(177, 136, 64);">Available in Popul8 ENTERPRISE</p>
+- [Bridge to Unreal](https://developer.didimo.co/docs/unreal-bridge.md): Quickly bring your characters and crowds from Popul8 into Unreal engine
+- [In-Game Character Editor for Unreal](https://developer.didimo.co/docs/unreal-engine-character-editor.md): Seamless Integration for Unreal Engine Projects
+- [Asset Fitter](https://developer.didimo.co/docs/asset-fitter.md)
+- [Intersection Solver](https://developer.didimo.co/docs/intersection-solver.md)
+- [Deformable Transfer](https://developer.didimo.co/docs/deformable-transfer.md): Transfer Deformables across different Character Templates
+- [Intersection Verification](https://developer.didimo.co/docs/verification.md)
+- [Shape Editor](https://developer.didimo.co/docs/shape-editor.md)
+- [Shape Transfer](https://developer.didimo.co/docs/shape-transfer.md): Leverage existing Shapes to quickly create variations of your Template Character
+- [Shape Mesh Matching](https://developer.didimo.co/docs/shape-mesh-matching.md)
+- [Rig Transfer](https://developer.didimo.co/docs/rig-transfer.md)
+- [Skin Transfer](https://developer.didimo.co/docs/skin-transfer.md)
+- [Optimized Data](https://developer.didimo.co/docs/optimized-data.md)
+- [Deformable Variation](https://developer.didimo.co/docs/deformable-variation.md): <p style="color: rgb(76, 187, 147)">Coming Soon to Popul8 Express</p>
+- [Material Variations](https://developer.didimo.co/docs/material-variations.md)
+- [Culling](https://developer.didimo.co/docs/culling.md): Improve Perfomance and Reduce Clipping in Crowds
+- [Crowds](https://developer.didimo.co/docs/crowds.md): Control the variety of your Characters
+- [Post Processors](https://developer.didimo.co/docs/post-processors.md)
+- [Headless and CLI](https://developer.didimo.co/docs/headless.md): Automate Crowd Generation Pipelines with Command Line and Continuos Integration
+- [CI/CD Environment](https://developer.didimo.co/docs/ci-cd.md): How to use the Popul8 CLI in a CI/CD environment
+- [Asset Packages](https://developer.didimo.co/docs/downloadable-package.md): Download our Asset Packages to enhance and streamline your project
+- [Didimo Shape Editor Resources](https://developer.didimo.co/docs/shape-editor-resources.md): Set up your Shape Editor quickly and easily using our downloadable package.
+- [World Head Variants](https://developer.didimo.co/docs/world-head-variants.md): A collection of 3D head variations inspired by diverse human features from around the world
+- [p-Labs Collection](https://developer.didimo.co/docs/p-labs-collection.md): Bring your characters to life with the p-Labs Collection
+- [Create a Crowd of 250 East Asian Athletic Males](https://developer.didimo.co/docs/usecase-createacrowd.md): From a Base Character to a Crowd in 15 minutes
+- [Automatic Verification of Crowd Characters](https://developer.didimo.co/docs/automate-intersection-detection-with-continuos-integration.md): Know on every commit if your Characters have mesh collisions
+- [Where's Hugo: using Popul8 crowds in a Unity Game](https://developer.didimo.co/docs/wheres-hugo.md)
+- [2.5 Didimo Specification](https://developer.didimo.co/docs/digital-human-specification.md)
+- [Input Image (Selfie)](https://developer.didimo.co/docs/best-practice-for-image-capture-quality.md): Providing suitable user and technical guidance on taking the perfect input selfie.
+- [Depth image](https://developer.didimo.co/docs/input-depth.md)
+
+## Pages
+- [Invalid Short URL](https://developer.didimo.co/invalid-short-url.md)
+
+## Changelog
+- [Popul8 Express 6.0.0 - alpha 20260511](https://developer.didimo.co/changelog/popul8-express-600-alpha-20260511.md)
+- [Popul8 Express 6.0.0 - alpha 20260406](https://developer.didimo.co/changelog/popul8-express-600-alpha-20260406.md)
+- [Popul8 Express 6.0.0 - alpha 20260330](https://developer.didimo.co/changelog/popul8-express-600-alpha-20260330.md)
+- [Popul8 Express 6.0.0 - alpha 20260309](https://developer.didimo.co/changelog/popul8-express-600-alpha-20260309.md)
+- [Popul8 Express 6.0.0 - alpha 20260216](https://developer.didimo.co/changelog/popul8-express-600-alpha-20260216.md)

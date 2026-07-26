@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.didimo.co/
+status_page: https://status.didimo.co/
+versioning:
+  scheme: application-release
+  note: >-
+    Popul8 is distributed as licensed desktop/engine software (Popul8 Express and
+    Popul8 CLI), versioned by application release rather than a URI/header-versioned
+    web API. The CLI's `version` command reports both CLI and Popul8 versions.
+deprecation:
+  policy_url: null
+  sunset_header: false
+  note: No public deprecation policy or RFC 8594 Sunset/Deprecation header surface (no public web API).
+sla:
+  url: null
+  uptime_target: null
+deprecated_operations: []

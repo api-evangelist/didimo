@@ -1,7 +1,17 @@
 aid: didimo
 name: Didimo
-description: Didimo is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Didimo is a digital human and 3D character technology company whose flagship
+  product, Popul8, automates the creation of game-ready NPCs, crowds, and digital
+  humans at scale. Popul8 Express lets studios generate thousands of fully-rigged,
+  high-quality characters from a single 3D base template, with automated asset
+  fitting, shape and rig transfer, intersection solving, material and deformable
+  variation, and crowd rendering optimized for Unity and Unreal Engine. Beyond the
+  desktop application, Popul8 ships a headless command-line tool (Popul8 CLI) for
+  automating crowd-generation pipelines in CI/CD, plus Unity and Unreal bridges for
+  bringing characters and crowds directly into game engines. Didimo is headquartered
+  in Clearwater, Florida with offices in Portugal and the UK, and was backed by
+  Techstars.
 url: https://raw.githubusercontent.com/api-evangelist/didimo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67a35b48eb6d080a7c18b768/67a6b0b835b20e311e92cef1_Didimo2%23D0EAF0PurpleGradient.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Digital Humans
+- 3D Characters
+- Avatars
+- Games
+- Crowd Generation
+- NPCs
+- Unity
+- Unreal Engine
+- CLI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,37 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://mydidimo.com/
+  url: https://www.didimo.co/
+- type: DeveloperPortal
+  url: https://developer.didimo.co/
+- type: Documentation
+  url: https://developer.didimo.co/docs/what-is-popul8-express
+- type: GettingStarted
+  url: https://developer.didimo.co/docs/installing-popul8-express
+- type: CLI
+  url: cli/didimo-cli.yml
+- type: SDKs
+  url: packages/didimo-packages.yml
+- type: Packages
+  url: packages/didimo-packages.yml
+- type: LLMsTxt
+  url: llms/didimo-llms.txt
+- type: Lifecycle
+  url: lifecycle/didimo-lifecycle.yml
+- type: StatusPage
+  url: https://status.didimo.co/
+- type: WellKnown
+  url: well-known/didimo-well-known.yml
+- type: DomainSecurity
+  url: security/didimo-domain-security.yml
+- type: Support
+  url: https://www.didimo.co/contact
+- type: SignUp
+  url: https://www.didimo.co/book-a-demo
+- type: PrivacyPolicy
+  url: https://privacy.didimo.co/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

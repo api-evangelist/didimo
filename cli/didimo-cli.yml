@@ -1,0 +1,78 @@
+generated: '2026-07-18'
+method: searched
+source: https://developer.didimo.co/docs/headless
+name: Popul8 CLI
+binary: popul8-cli
+description: >-
+  Popul8 CLI is a command-line tool that extends Popul8's functionality directly
+  from the terminal. It can launch a new unattended (headless, no-GUI) Popul8
+  process or connect to an already-running Popul8 process, enabling automated
+  crowd-generation and verification pipelines. Supported on Windows and macOS.
+platforms:
+- macOS
+- Windows
+install:
+  macos: >-
+    Bundled inside the Popul8 application. After installing Popul8 (book a demo to
+    obtain the software and license), the binary is at
+    /Applications/Popul8.app/Contents/Cli/popul8-cli
+  windows: >-
+    Run install-cli.exe from the Popul8 installation folder
+    (default C:\Program Files (x86)\Popul8).
+  note: >-
+    The CLI ships with the licensed Popul8 desktop application; there is no public
+    package-registry distribution. Access requires a Popul8 license (book a demo).
+syntax: popul8-cli [command] [options]
+commands:
+- name: start
+  description: Starts Popul8 in headless mode.
+  syntax: popul8-cli start [<full/path/to/binary>]
+  flags:
+  - "-p <port>: port for the CLI to communicate with Popul8 (e.g. 2055)"
+  - "--gui: launch with GUI"
+- name: stop
+  description: Stops the currently running Popul8 session.
+  syntax: popul8-cli stop
+- name: open
+  description: Opens a project using its .pp8 file full path.
+  syntax: popul8-cli open <full/path/to/project/file.pp8>
+- name: export
+  description: Exports all the crowds available in the open project.
+  syntax: popul8-cli export <full/path/to/export/folder>
+  flags:
+  - "--bridge: export in bridge mode"
+  - "--single: export in single mode"
+- name: verify
+  description: Exports an HTML report with all the intersections found in the open project.
+  syntax: popul8-cli verify <full/path/to/export/folder> [-i scope]
+  flags:
+  - "--scope / -i: allowed values all, shapes, templates (default templates)"
+- name: config
+  description: Show or save configurations.
+  syntax: popul8-cli config
+- name: status
+  description: Checks if Popul8 is currently running.
+  syntax: popul8-cli status
+- name: license
+  description: Sets a specific license file for the currently running Popul8 process.
+  syntax: popul8-cli license <full/path/to/license/file>
+- name: version
+  description: Show CLI and Popul8 version.
+  syntax: popul8-cli version
+flows:
+- name: CI/CD crowd export (GitLab Windows runner)
+  docs: https://developer.didimo.co/docs/ci-cd
+  steps:
+  - start Popul8 with popul8-cli start
+  - set/verify license with popul8-cli license
+  - open a project with popul8-cli open <project.pp8>
+  - export or verify with popul8-cli export / popul8-cli verify
+  - collect output directories as build artifacts
+  - stop Popul8 with popul8-cli stop
+  environment_variables:
+  - POPUL8_PATH
+  - POPUL8_LICENSE_PATH
+  - POPUL8_PORT
+  - POPUL8_PROJECT_PATH
+  - POPUL8_EXPORT_DIR
+  - POPUL8_VERIFY_DIR
