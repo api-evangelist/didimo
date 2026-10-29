@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Didimo is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Didimo is a digital human and 3D character technology company whose flagship product, Popul8, automates the creation of game-ready NPCs, crowds, and digital humans at scale. Popul8 Express lets studios generate thousands of fully-rigged, high-quality characters from a single 3D base template, with automated asset fitting, shape and rig transfer, intersection solving, material and deformable variation, and crowd rendering optimized for Unity and Unreal Engine. Beyond the desktop application, Popul8 ships a headless command-line tool (Popul8 CLI) for automating crowd-generation pipelines in CI/CD, plus Unity and Unreal bridges for bringing characters and crowds directly into game engines. Didimo is headquartered in Clearwater, Florida with offices in Portugal and the UK, and was backed by Techstars.
 
-Backed by: techstars — https://mydidimo.com/
+**Areas:** Company · Digital Humans · 3D Characters · Avatars · Games · Crowd Generation · NPCs · Unity · Unreal Engine · CLI
+
+## Didimo on APIs.io
+
+Everything profiled for Didimo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/didimo/](https://apis.io/providers/didimo/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Didimo Domain Security](https://apis.io/security/didimo/didimo-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.didimo.co/)
+- [Documentation](https://developer.didimo.co/docs/what-is-popul8-express)
+- [Getting started](https://developer.didimo.co/docs/installing-popul8-express)
+- [Sign up](https://www.didimo.co/book-a-demo)
+- [Support](https://www.didimo.co/contact)
+- [Privacy policy](https://privacy.didimo.co/privacy-policy/)
+- [Status](https://status.didimo.co/)
+
+## API Evangelist rating
+
+**Kin Score 18.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 34.5 |
+| Access clarity | 23.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/didimo/](https://apis.io/providers/didimo/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Didimo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/didimo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
